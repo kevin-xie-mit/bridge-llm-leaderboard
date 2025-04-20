@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/lsCIUxFkADB-Wf9cteeB4.png" alt="Leaderboard Image 1" width="150" />
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/E-WF4uJB0GzplioJkWh5v.webp" alt="Leaderboard Image 2" width="170" />
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ASGmOZ2FH1wWCE51QJrBZ.png" alt="Leaderboard Image 1" width="250" />
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/FsuzhBUMHOUVOV3raharV.png" alt="Leaderboard Image 2" width="200" />
   <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png" alt="Leaderboard Image 3" width="600" />
 </div>
 
