@@ -1,10 +1,9 @@
 
-![image/png](https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/lsCIUxFkADB-Wf9cteeB4.png)
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/lsCIUxFkADB-Wf9cteeB4.png" alt="Leaderboard Image 1" width="200"/>
 
-![image/webp](https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/E-WF4uJB0GzplioJkWh5v.webp)
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/E-WF4uJB0GzplioJkWh5v.webp" alt="Leaderboard Image 2" width="200"/>
 
-![image/png](https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png)
-
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png" alt="Leaderboard Image 3" width="800"/>
 
 
 ## 📜 Background
