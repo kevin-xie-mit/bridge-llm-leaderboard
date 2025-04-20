@@ -1,24 +1,25 @@
-<div style="display: flex; width: 100%; height: 150px;">
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%; height: 150px;">
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png"
     alt="HMS"
-    style="flex: 1; height: 100%; object-fit: contain;"
+    style="width: 20%; height: 100%; object-fit: contain;"
   />
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ZVx7ahuV1mVuIeygYwirc.png"
     alt="MGB"
-    style="flex: 1; height: 100%; object-fit: contain;"
+    style="width: 36%; height: 100%; object-fit: contain;"
   />
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/TkKKjmq98Wv_p5shxJTMY.png"
     alt="Broad"
-    style="flex: 1; height: 100%; object-fit: contain;"
+    style="width: 19%; height: 100%; object-fit: contain;"
   />
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/UcM8kmTaVkAM1qf3v09K8.png"
     alt="YLab"
-    style="flex: 1; height: 100%; object-fit: contain;"
+    style="width: 15%; height: 100%; object-fit: contain;"
   />
+  
 </div>
 
 
