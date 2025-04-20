@@ -2,17 +2,17 @@
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png"
     alt="HMS"
-    style="width: 33%; object-fit: contain;"
+    style="width: 28%; object-fit: contain;"
   />
   <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/FsuzhBUMHOUVOV3raharV.png"
+    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/iF3sF0lkaYj9SB_TwjjZC.png"
     alt="YLab"
-    style="width: 29%; object-fit: contain;"
+    style="width: 25%; object-fit: contain;"
   />
   <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png"
+    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ZVx7ahuV1mVuIeygYwirc.png"
     alt="MGB"
-    style="width: 32%; object-fit: contain;"
+    style="width: 28%; object-fit: contain;"
   />
 </div>
 
