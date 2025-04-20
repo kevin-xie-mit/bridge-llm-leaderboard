@@ -33,6 +33,10 @@
   <li><strong>1M+ clinical samples</strong></li>
 </ul>
 
+<div style="text-align: center;">
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/2fh-jETNSL9iXJXTT-fdN.png" style="width: 50%;" alt="BRIDGE benchmark graphic">
+</div>
+
 <h2>🌍 Key Features</h2>
 <p>Our benchmark spans a wide range of document types and clinical tasks, including classification, event extraction, and generation. It further supports three inference strategies: <strong>zero-shot</strong>, <strong>few-shot</strong>, and <strong>chain-of-thought (CoT)</strong> prompting. We evaluated <strong>52 LLMs</strong>, including general-purpose, open-source, proprietary, and medical-domain models.</p>
 <ul>
@@ -47,6 +51,7 @@
     </ul>
   </li>
 </ul>
+
 
 <h2>🏆 BRIDGE Leaderboard</h2>
 <p>To support ongoing evaluation, we introduce our <strong>BRIDGE Leaderboard</strong>, which provides:</p>
