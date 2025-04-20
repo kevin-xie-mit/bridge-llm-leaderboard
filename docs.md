@@ -1,8 +1,9 @@
-<div>
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/lsCIUxFkADB-Wf9cteeB4.png" alt="Leaderboard Image 1" width="200" />
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/E-WF4uJB0GzplioJkWh5v.webp" alt="Leaderboard Image 2" width="200" />
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png" alt="Leaderboard Image 3" width="800" />
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/lsCIUxFkADB-Wf9cteeB4.png" alt="Leaderboard Image 1" width="150" />
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/E-WF4uJB0GzplioJkWh5v.webp" alt="Leaderboard Image 2" width="170" />
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png" alt="Leaderboard Image 3" width="600" />
 </div>
+
 
 <h2>📜 Background</h2>
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in improving healthcare delivery and clinical research. By combining extensive pretraining with supervised instruction tuning across diverse tasks, LLMs excel in natural language understanding, generation, and reasoning. These capabilities allow LLMs to serve as versatile, general-purpose medical assistants.</p>
