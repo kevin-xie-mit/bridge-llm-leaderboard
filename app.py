@@ -704,7 +704,9 @@ with gr.Blocks() as app:
 
     with gr.Tabs():
         with gr.Tab("README"):
-            gr.Markdown((Path(__file__).parent / "docs.md").read_text())
+            # gr.Markdown((Path(__file__).parent / "docs.md").read_text())
+            html_content = (Path(__file__).parent / "docs.md").read_text()
+            gr.HTML(html_content)
 
         with gr.Tab("Zero-Shot"):
             leaderboard = Leaderboard(
