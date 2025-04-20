@@ -1,0 +1,698 @@
+{
+    "ADE-Identification": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "ADE-Extraction": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "ADE-Drug dosage": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "Medication information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "BARR2": {
+        "Language": "Spanish",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Concept standarization",
+        "Clinical Stage": "Research"
+    },
+    "BrainMRI-AIS": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Neurology, Radiology",
+        "Data Access": "Open Access",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "Brateca-Hospitalization": {
+        "Language": "Portuguese\n(Brazilian)",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "Brateca-Mortality": {
+        "Language": "Portuguese\n(Brazilian)",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "Cantemist-Coding": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Oncology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "Cantemis-NER": {
+        "Language": "Spanish",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Oncology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "Cantemis-Norm": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Oncology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CARES-Area": {
+        "Language": "Spanish",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Radiology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CARES ICD10 Block": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Radiology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CARES-ICD10 Chapter": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Radiology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CARES-ICD10 Subblock": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Radiology",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CHIP-CDEE": {
+        "Language": "Chinese",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Temporal & Causality relation",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "C-EMRS": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Radiology, Endocrinology, Pulmonology, Cardiology, Gastroenterology",
+        "Data Access": "Open Access",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "CodiEsp-ICD-10-CM": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CodiEsp-ICD-10-PCS": {
+        "Language": "Spanish",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "ClinicalNotes-UPMC": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Negation identification",
+        "Clinical Stage": "Research"
+    },
+    "PPTS": {
+        "Language": "Spanish",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Pulmonology",
+        "Data Access": "Open Access",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "CLINpt-NER": {
+        "Language": "Portuguese",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Neurology",
+        "Data Access": "Open Access",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "CLIP": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Post-discharge patient management",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "cMedQA": {
+        "Language": "Chinese",
+        "Task Type": "Question Answering",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "DialMed": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Pulmonology, Gastroenterology, Dermatology, Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "Medication information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "DiSMed-NER": {
+        "Language": "Spanish",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Radiology",
+        "Data Access": "Regulated",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "MIE": {
+        "Language": "Chinese",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology",
+        "Data Access": "Open Access",
+        "Applications": "Phenotyping",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "EHRQA-Primary department": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Specialist recommendation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "EHRQA-QA": {
+        "Language": "Chinese",
+        "Task Type": "Question Answering",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "EHRQA-Sub department": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Specialist recommendation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "Ex4CDS": {
+        "Language": "German",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Nephrology",
+        "Data Access": "Open Access",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "GOUT-CC-Consensus": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "n2c2 2006-De-identification": {
+        "Language": "English",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pulmonology",
+        "Data Access": "Regulated",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "Medication extraction": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Regulated",
+        "Applications": "Medication information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "n2c2 2010-Concept": {
+        "Language": "English",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "n2c2 2010-Assertion": {
+        "Language": "English",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Post-discharge patient management",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "n2c2 2010-Relation": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "n2c2 2014-De-identification": {
+        "Language": "English",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "IMCS-V2-NER": {
+        "Language": "Chinese",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pediatrics",
+        "Data Access": "Open Access",
+        "Applications": "Phenotyping",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "JP-STS": {
+        "Language": "Japanese",
+        "Task Type": "Semantic Similarity",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Semantic relation",
+        "Clinical Stage": "Research"
+    },
+    "meddocan": {
+        "Language": "Spanish",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "MEDIQA 2019-RQE": {
+        "Language": "English",
+        "Task Type": "Natural Language Inference",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "MedNLI": {
+        "Language": "English",
+        "Task Type": "Natural Language Inference",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Semantic relation",
+        "Clinical Stage": "Research"
+    },
+    "MedSTS": {
+        "Language": "English",
+        "Task Type": "Semantic Similarity",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Semantic relation",
+        "Clinical Stage": "Research"
+    },
+    "MTS": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Data organization",
+        "Clinical Stage": "Research"
+    },
+    "MTS-Temporal": {
+        "Language": "English",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pediatrics, Psychology",
+        "Data Access": "Open Access",
+        "Applications": "Temporal & Causality relation",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "n2c2 2018-ADE&medication": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Regulated",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "NorSynthClinical-NER": {
+        "Language": "Norwegian",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Cardiology",
+        "Data Access": "Open Access",
+        "Applications": "Temporal & Causality relation",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "NorSynthClinical-RE": {
+        "Language": "Norwegian",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology",
+        "Data Access": "Open Access",
+        "Applications": "Temporal & Causality relation",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "NUBES": {
+        "Language": "Spanish",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Negation identification",
+        "Clinical Stage": "Research"
+    },
+    "MEDIQA 2023-chat-A": {
+        "Language": "English",
+        "Task Type": "Summarization",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Consultation summarization",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "MEDIQA 2023-sum-A": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Data organization",
+        "Clinical Stage": "Research"
+    },
+    "MEDIQA 2023-sum-B": {
+        "Language": "English",
+        "Task Type": "Summarization",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Consultation summarization",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "RuMedDaNet": {
+        "Language": "Russian",
+        "Task Type": "Natural Language Inference",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "CBLUE-CDN": {
+        "Language": "Chinese",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Billing & Coding",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CHIP-CTC": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Clinical trial matching",
+        "Clinical Stage": "Research"
+    },
+    "CHIP-MDCFNPC": {
+        "Language": "Chinese",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Phenotyping",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "MedDG": {
+        "Language": "Chinese",
+        "Task Type": "Question Answering",
+        "Clinical Context": "Gastroenterology",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "IMCS-V2-SR": {
+        "Language": "Chinese",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pediatrics",
+        "Data Access": "Open Access",
+        "Applications": "Phenotyping",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "IMCS-V2-MRG": {
+        "Language": "Chinese",
+        "Task Type": "Summarization",
+        "Clinical Context": "Pediatrics",
+        "Data Access": "Open Access",
+        "Applications": "Consultation summarization",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "IMCS-V2-DAC": {
+        "Language": "Chinese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Pediatrics",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "n2c2 2014-Diabetes": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Risk factor extraction",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "n2c2 2014-CAD": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Risk factor extraction",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "n2c2 2014-Hyperlipidemia": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Risk factor extraction",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "n2c2 2014-Hypertension": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Risk factor extraction",
+        "Clinical Stage": "Initial Assessment"
+    },
+    "n2c2 2014-Medication": {
+        "Language": "English",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Cardiology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Medication information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "CAS-label": {
+        "Language": "French",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Post-discharge patient management",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "CAS-evidence": {
+        "Language": "French",
+        "Task Type": "Summarization",
+        "Clinical Context": "General",
+        "Data Access": "Regulated",
+        "Applications": "Summarization",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "RuMedNLI": {
+        "Language": "Russian",
+        "Task Type": "Natural Language Inference",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Open Access",
+        "Applications": "Semantic relation",
+        "Clinical Stage": "Research"
+    },
+    "RuDReC-NER": {
+        "Language": "Russian",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "NorSynthClinical-PHI": {
+        "Language": "Norwegian",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Cardiology",
+        "Data Access": "Open Access",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "RuCCoN": {
+        "Language": "Russian",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pulmonology",
+        "Data Access": "Open Access",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "CLISTER": {
+        "Language": "French",
+        "Task Type": "Semantic Similarity",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Semantic relation",
+        "Clinical Stage": "Research"
+    },
+    "BRONCO150-NER&Status": {
+        "Language": "German",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Oncology",
+        "Data Access": "Regulated",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "CARDIO-DE": {
+        "Language": "German",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Cardiology",
+        "Data Access": "Regulated",
+        "Applications": "Medication information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "GraSSCo PHI": {
+        "Language": "German",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "De-identification",
+        "Clinical Stage": "Research"
+    },
+    "IFMIR-Incident type": {
+        "Language": "Japanese",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "IFMIR-NER": {
+        "Language": "Japanese",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "IFMIR - NER&factuality": {
+        "Language": "Japanese",
+        "Task Type": "Event Extraction",
+        "Clinical Context": "Pharmacology",
+        "Data Access": "Open Access",
+        "Applications": "ADE & Incidents",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "iCorpus": {
+        "Language": "Japanese",
+        "Task Type": "Named Entity Recognition",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Procudure information",
+        "Clinical Stage": "Treatment and Intervention"
+    },
+    "icliniq-10k": {
+        "Language": "English",
+        "Task Type": "Question Answering",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "HealthCareMagic-100k": {
+        "Language": "English",
+        "Task Type": "Question Answering",
+        "Clinical Context": "General",
+        "Data Access": "Open Access",
+        "Applications": "Screen & Consultation",
+        "Clinical Stage": "Triage and Referral"
+    },
+    "MIMIC-IV CDM": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Gastroenterology",
+        "Data Access": "Regulated",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-III Outcome.LoS": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-III Outcome.Mortality": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-IV BHC": {
+        "Language": "English",
+        "Task Type": "Summarization",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Summarization",
+        "Clinical Stage": "Discharge and Administration"
+    },
+    "MIMIC-IV DiReCT.Dis": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Cardiology, Gastroenterology, Neurology, Pulmonology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-IV DiReCT.PDD": {
+        "Language": "English",
+        "Task Type": "Text Classification",
+        "Clinical Context": "Cardiology, Gastroenterology, Neurology, Pulmonology, Endocrinology",
+        "Data Access": "Regulated",
+        "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    }
+}
