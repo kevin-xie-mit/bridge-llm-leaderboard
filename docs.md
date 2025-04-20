@@ -1,20 +1,21 @@
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
   <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ASGmOZ2FH1wWCE51QJrBZ.png"
-    alt="Leaderboard Image 1"
-    style="width: 30%; object-fit: contain;"
+    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png"
+    alt="HMS"
+    style="width: 33%; object-fit: contain;"
   />
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/FsuzhBUMHOUVOV3raharV.png"
-    alt="Leaderboard Image 2"
-    style="width: 30%; object-fit: contain;"
+    alt="YLab"
+    style="width: 29%; object-fit: contain;"
   />
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xQqbGXh0y6zIV78Cw6Vpq.png"
-    alt="Leaderboard Image 3"
-    style="width: 30%; object-fit: contain;"
+    alt="MGB"
+    style="width: 32%; object-fit: contain;"
   />
 </div>
+
 
 <h2>📜 Background</h2>
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in improving healthcare delivery and clinical research. By combining extensive pretraining with supervised instruction tuning across diverse tasks, LLMs excel in natural language understanding, generation, and reasoning. These capabilities allow LLMs to serve as versatile, general-purpose medical assistants.</p>
