@@ -94,7 +94,7 @@ If you have clinical text datasets that you would like to share for broader expl
 <p>If you have any questions about BRIDGE or the leaderboard, feel free to reach out!</p>
 <ul>
     <li><strong>Leaderboard Managers</strong>: Jiageng Wu (jiwu7@bwh.harvard.edu), Kevin Xie (kevinxie@mit.edu)</li>
-    <li><strong>Benchmark Managers</strong>: Bowen Gu (bogu@bwh.harvard.edu), Jiageng Wu (jiwu7@bwh.harvard.edu)</li>
+    <li><strong>Benchmark Managers</strong>: Jiageng Wu (jiwu7@bwh.harvard.edu), Bowen Gu (bogu@bwh.harvard.edu)</li>
     <li><strong>Program Lead</strong>: Jie Yang (jyang66@bwh.harvard.edu)</li>
 </ul>
 
