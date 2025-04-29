@@ -47,7 +47,7 @@
 <ul>
     <li><strong>Real-world Clinical Text</strong>: All tasks are sourced from real-world medical settings, such as electronic health records (EHRs), clinical case reports, or healthcare consultations</li>
     <li><strong>Multilingual Context</strong>: 9 languages: English, Chinese, Spanish, Japanese, German, Russian, French, Norwegian, and Portuguese</li>
-    <li><strong>Diverse Task Types</strong>: 8 task types: Text classification, Semantic similarity, Normalization and Coding, Named entity recognition (NER), Event extraction, Question answering (QA), and Text Summarization</li>
+    <li><strong>Diverse Task Types</strong>: 8 task types: Text classification, Semantic similarity, Normalization and Coding, Named entity recognition, Event extraction, Question answering, and Text Summarization</li>
     <li><strong>Broad Clinical Applications</strong>: 14 Clinical specialties, 7 Clinical document types, 20 Clinical applications covering 6 clinical stages of patient care</li>
     <li><strong>Advanced LLMs (52 models)</strong>:
     <ul>
@@ -62,7 +62,7 @@ More Details can be found in our <a href="https://arxiv.org/abs/2504.19467">BRID
 
 <h2>🛠️ How to Evaluate Your Model on BRIDGE ?</h2>
 <h4>📂 Dataset Access</h4>
-<p>All fully open-access datasets in BRIDGE are available in <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a>. To ensure fairness of this leaderboard, we publicly release the following data for each task:
+<p>All fully open-access datasets in BRIDGE are available in <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a>. To ensure the fairness of this leaderboard, we publicly release the following data for each task:
 Five completed samples serve as few-shot examples, and all testing samples with instruction and input information.</p>
 
 <p>Due to privacy and security considerations of clinical data, regulated-access datasets can not be directly published. However, all detailed task descriptions and their corresponding data sources are available in our <a href="https://arxiv.org/abs/2504.19467">BRIDGE paper</a>.
