@@ -22,12 +22,11 @@
   
 </div>
 
-
 <h2>📜 Background</h2>
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>52 state-of-the-art LLMs</strong> (by 2024/04/29).</p>
 
 <div style="text-align: center;">
-  <img src="figure/dataset.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
+  <img src="./dataset.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
 </div>
 
 <h2>🏆 BRIDGE Leaderboard</h2>
@@ -40,7 +39,7 @@
 <p>In addition, BRIDGE offers multiple <strong>model filters</strong> and <strong>task filters</strong> to enable users to explore LLM performance across <strong>different clinical contexts</strong>, empowering researchers and clinicians to make informed decisions and track model advancements over time.</p>
 
 <div style="text-align: center;">
-  <img src="figure/model.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
+  <img src="./model.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
 </div>
 
 
@@ -64,13 +63,13 @@ More Details can be found in our <a href="https://arxiv.org/abs/2504.19467">BRID
 <h2>🛠️ How to Evaluate Your Model on BRIDGE ?</h2>
 <h4>📂 Dataset Access</h4>
 <p>All fully open-access datasets in BRIDGE are available in <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a>. To ensure fairness of this leaderboard, we publicly release the following data for each task:
-Five completed samples serving as few-shot examples, and all testing samples with instruction and input information.</p>
+Five completed samples serve as few-shot examples, and all testing samples with instruction and input information.</p>
 
 <p>Due to privacy and security considerations of clinical data, regulated-access datasets can not be directly published. However, all detailed task descriptions and their corresponding data sources are available in our <a href="https://arxiv.org/abs/2504.19467">BRIDGE paper</a>.
 Importantly, all 87 datasets have been verified to be either fully open-access or publicly accessible via reasonable request.</p>
 
 <h4>🔥 Result Submission and Evaluation</h4>
-If you would like to submit your model results to BRIDGE and demonstrate its performance, please follow these steps:
+<p>If you would like to submit your model results to BRIDGE and demonstrate its performance, please follow these steps:</p>
 <ul> 
     <li><strong>Run local inference:</strong> Download the <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a> dataset and perform inference locally. Save the generated output of each sample in its "pred" field for each dataset file.</li>
     <li><strong>Prepare your submission:</strong> Send your results to us (see the following Contact Information). Please clearly describe your model details and experimental settings, including the inference strategy used (zero-shot, few-shot, or CoT), and note any additional relevant configurations if applicable.</li> 
@@ -92,7 +91,7 @@ If you have clinical text datasets that you would like to share for broader expl
 </ul>
 
 <h2>📬 Contact Information</h2>
-If you have any questions about BRIDGE or the leaderboard, feel free to reach out!
+<p>If you have any questions about BRIDGE or the leaderboard, feel free to reach out!</p>
 <ul>
     <li><strong>Leaderboard Managers</strong>: Jiageng Wu (jiwu7@bwh.harvard.edu), Kevin Xie (kevinxie@mit.edu)</li>
     <li><strong>Benchmark Managers</strong>: Bowen Gu (bogu@bwh.harvard.edu), Jiageng Wu (jiwu7@bwh.harvard.edu)</li>
@@ -100,8 +99,8 @@ If you have any questions about BRIDGE or the leaderboard, feel free to reach ou
 </ul>
 
 <h2>📚 Citation</h2>
-<pre><code>
-@article{BRIDGE-benchmark,
+<p>If you find this leaderboard useful for your research and applications, please cite the following papers:</p>
+<pre><code>@article{BRIDGE-benchmark,
     title={BRIDGE: Benchmarking Large Language Models for Understanding Real-world Clinical Practice Text},
     author={Wu, Jiageng and Gu, Bowen and Zhou, Ren and Xie, Kevin and Snyder, Doug and Jiang, Yixing and Carducci, Valentina and Wyss, Richard and Desai, Rishi J and Alsentzer, Emily and Celi, Leo Anthony and Rodman, Adam and Schneeweiss, Sebastian and Chen, Jonathan H. and Romero-Brufau, Santiago and Lin, Kueiyu Joshua and Yang, Jie},
     year={2025},
