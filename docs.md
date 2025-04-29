@@ -39,7 +39,7 @@
 <p>In addition, BRIDGE offers multiple <strong>model filters</strong> and <strong>task filters</strong> to enable users to explore LLM performance across <strong>different clinical contexts</strong>, empowering researchers and clinicians to make informed decisions and track model advancements over time.</p>
 
 <div style="text-align: center;">
-  <img src="figrue/model.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
+  <img src="figure/model.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
 </div>
 
 
