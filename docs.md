@@ -1,4 +1,4 @@
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100px;">
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%; height: 50px;">
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png"
     alt="HMS"
