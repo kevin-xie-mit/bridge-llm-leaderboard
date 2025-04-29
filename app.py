@@ -700,7 +700,7 @@ Leaderboard.postprocess = postprocess
 ####################################################################################################
 
 with gr.Blocks() as app:
-    gr.Markdown("# BRIDGE (Benchmarking Large Language Models in Multilingual Real-world Clinical Text Understanding)")
+    gr.Markdown("# BRIDGE (Benchmarking Large Language Models for Understanding Real-world Clinical Practice Text)")
 
     with gr.Tabs():
         with gr.Tab("README"):
