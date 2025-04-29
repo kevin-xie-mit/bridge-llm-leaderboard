@@ -26,7 +26,7 @@
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>52 state-of-the-art LLMs</strong> (by 2024/04/29).</p>
 
 <div style="text-align: center;">
-  <img src="figure/dataset.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
+  <img src="figure/dataset.png" style="width: 80%;" alt="BRIDGE benchmark graphic">
 </div>
 
 <h2>🏆 BRIDGE Leaderboard</h2>
@@ -39,7 +39,7 @@
 <p>In addition, BRIDGE offers multiple <strong>model filters</strong> and <strong>task filters</strong> to enable users to explore LLM performance across <strong>different clinical contexts</strong>, empowering researchers and clinicians to make informed decisions and track model advancements over time.</p>
 
 <div style="text-align: center;">
-  <img src="figure/model.png" style="width: 100%;" alt="BRIDGE benchmark graphic">
+  <img src="figure/model.png" style="width: 80%;" alt="BRIDGE benchmark graphic">
 </div>
 
 
