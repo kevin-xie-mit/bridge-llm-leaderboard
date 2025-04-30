@@ -4,7 +4,7 @@
   .wrapper{
     width:100%;
     max-width:1111px;     /* change here if you prefer wider/narrower */
-    margin:0 auto;
+    /* margin:0 auto; */
     padding:0 1rem;
   }
 
