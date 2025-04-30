@@ -76,7 +76,7 @@ More Details can be found in our <a href="https://arxiv.org/abs/2504.19467">BRID
 Five completed samples serve as few-shot examples, and all testing samples with instruction and input information.</p>
 
 <p>Due to privacy and security considerations of clinical data, regulated-access datasets can not be directly published. However, all detailed task descriptions and their corresponding data sources are available in our <a href="https://arxiv.org/abs/2504.19467">BRIDGE paper</a>.
-Importantly, all 87 datasets have been verified to be either fully open-access or publicly accessible via reasonable request in <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">our previous study</a>.</p>
+Importantly, all 87 datasets have been verified to be either fully open-access or publicly accessible via reasonable request in <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a>.</p>
 
 <h4>🔥 Result Submission and Evaluation</h4>
 <p>If you would like to submit your model results to BRIDGE and demonstrate its performance, please follow these steps:</p>
