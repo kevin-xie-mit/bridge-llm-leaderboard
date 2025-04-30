@@ -33,7 +33,7 @@
     margin:25px 0;        /* vertical breathing room */
   }
   .section-img img{
-    max-width:90%;
+    max-width:80%;
     height:auto;
     object-fit:contain;   /* avoid distortion */
   }
