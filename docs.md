@@ -27,7 +27,7 @@
 This project is led and maintained by the team of <a href="https://ylab.top/">Prof. Jie Yang</a> and <a href="https://www.drugepi.org/team/joshua-kueiyu-lin">Prof. Kueiyu Joshua Lin</a> at Harvard Medical School and Brigham and Women's Hospital. 
 
 
-<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: auto;">
+<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 500px;">
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/633c70c4ccce04161f841c30/OLN3J8_Yq8dx_LrgjYSsC.png"
     alt="dataset"
@@ -45,7 +45,7 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
 </ul>
 <p>In addition, BRIDGE offers multiple <strong>model filters</strong> and <strong>task filters</strong> to enable users to explore LLM performance across <strong>different clinical contexts</strong>, empowering researchers and clinicians to make informed decisions and track model advancements over time.</p>
 
-<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: auto;">
+<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 500px;">
   <img
     src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xpyabfXWqacZD-ThQ5guU.jpeg"
     alt="HMS"
@@ -104,11 +104,11 @@ If you have clinical text datasets that you would like to share for broader expl
 
 ## 🚀 Donation
 
-BRIDGE is a non-profit, researcher-led benchmark that requires substantial resources (e.g., high-performance GPUs, a dedicated team) to sustain. To support open and impactful academic research that advances clinical care, we welcome your contributions. Please contact Prof. Jie Yang at <jyang66@bwh.harvard.edu> to discuss donation opportunities.</p>
+BRIDGE is a non-profit, researcher-led benchmark that requires substantial resources (e.g., high-performance GPUs, a dedicated team) to sustain. To support open and impactful academic research that advances clinical care, we welcome your contributions. Please contact Prof. Jie Yang at <jyang66@bwh.harvard.edu> to discuss donation opportunities.
 
 ## 📬 Contact Information
 
-If you have any questions about BRIDGE or the leaderboard, feel free to reach out!
+Feel free to reach out if you have any questions about BRIDGE or the leaderboard!
 - **Leaderboard Managers**: Jiageng Wu (<jiwu7@bwh.harvard.edu>), Kevin Xie (<kevinxie@mit.edu>), Bowen Gu (<bogu@bwh.harvard.edu>)
 - **Benchmark Managers**: Jiageng Wu (<jiwu7@bwh.harvard.edu>), Bowen Gu (<bogu@bwh.harvard.edu>)
 - **Project Lead**: Jie Yang (<jyang66@bwh.harvard.edu>)
@@ -119,6 +119,7 @@ If you have any questions about BRIDGE or the leaderboard, feel free to reach ou
 ## 📚 Citation
 
 If you find this leaderboard useful for your research and applications, please cite the following papers:
+
 <pre style="white-space: pre-wrap; overflow-wrap: anywhere;">
 <code>@article{BRIDGE-benchmark,
     title={BRIDGE: Benchmarking Large Language Models for Understanding Real-world Clinical Practice Text},
@@ -141,4 +142,4 @@ If you find this leaderboard useful for your research and applications, please c
 }
 </code></pre>
 
-If you use the datasets in BRIDGE, please also cite the original paper of datasets, which can be found in the our BRIDGE paper.
+If you use the datasets in BRIDGE, please also cite the original paper of the datasets, which can be found in our BRIDGE paper.
