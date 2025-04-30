@@ -2,7 +2,8 @@
 <style>
   /* 1. Center content and limit max width for readability */
   .wrapper{
-    max-width:880px;     /* change here if you prefer wider/narrower */
+    width:100%;
+    max-width:1111px;     /* change here if you prefer wider/narrower */
     margin:0 auto;
     padding:0 1rem;
   }
