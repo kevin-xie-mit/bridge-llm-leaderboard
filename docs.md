@@ -1,12 +1,12 @@
 <!-- ----------  Global Styles  ---------- -->
 <style>
   /* 1. Center content and limit max width for readability */
-  .wrapper{
+  /* .wrapper{
     width:100%;
-    max-width:1111px;     /* change here if you prefer wider/narrower */
-    /* margin:0 auto; */
+    max-width:1111px;
+    margin:0 auto;
     padding:0 1rem;
-  }
+  } */
 
   /* 2. Logo bar (top row) */
   .logo-bar{
