@@ -87,7 +87,7 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
 <ul>
     <li><strong>Real-world Clinical Text</strong>: All tasks are sourced from real-world medical settings, such as electronic health records (EHRs), clinical case reports, or healthcare consultations</li>
     <li><strong>Multilingual Context</strong>: 9 languages: English, Chinese, Spanish, Japanese, German, Russian, French, Norwegian, and Portuguese</li>
-    <li><strong>Diverse Task Types</strong>: 8 task types: Text classification, Semantic similarity, Normalization and Coding, Named entity recognition, Natural language inference, Event extraction, Question answering, and Text Summarization</li>
+    <li><strong>Diverse Task Types</strong>: 8 task types: Text classification, Semantic similarity, Normalization and coding, Named entity recognition, Natural language inference, Event extraction, Question answering, and Text summarization</li>
     <li><strong>Broad Clinical Applications</strong>: 14 Clinical specialties, 7 Clinical document types, 20 Clinical applications covering 6 clinical stages of patient care</li>
     <li><strong>Advanced LLMs (52 models)</strong>:
     <ul>
