@@ -1,41 +1,71 @@
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%; height: 50px;">
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png"
-    alt="HMS"
-    style="width: 20%; height: 100%; object-fit: contain;"
-  />
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ZVx7ahuV1mVuIeygYwirc.png"
-    alt="MGB"
-    style="width: 36%; height: 100%; object-fit: contain;"
-  />
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/TkKKjmq98Wv_p5shxJTMY.png"
-    alt="Broad"
-    style="width: 19%; height: 100%; object-fit: contain;"
-  />
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/UcM8kmTaVkAM1qf3v09K8.png"
-    alt="YLab"
-    style="width: 15%; height: 100%; object-fit: contain;"
-  />
-  
+<!-- ----------  Global Styles  ---------- -->
+<style>
+  /* 1. Center content and limit max width for readability */
+  .wrapper{
+    max-width:880px;     /* change here if you prefer wider/narrower */
+    margin:0 auto;
+    padding:0 1rem;
+  }
+
+  /* 2. Logo bar (top row) */
+  .logo-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:50px;
+    margin-bottom:25px;
+  }
+  .logo-bar img{
+    height:100%;
+    max-width:100%;
+    object-fit:contain;
+  }
+
+  /* 3. Generic paragraph spacing */
+  p{line-height:1.6;}
+
+  /* 4. Re-usable image section */
+  .section-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:25px 0;        /* vertical breathing room */
+  }
+  .section-img img{
+    max-width:90%;
+    height:auto;
+    object-fit:contain;   /* avoid distortion */
+  }
+
+  /* 5. Make long BibTeX lines wrap instead of widening page */
+  pre code{
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+</style>
+
+<!-- ----------  Page Content  ---------- -->
+<div class="wrapper">
+
+<!-- Top logos ------------------------------------------------------------>
+<div class="logo-bar">
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/1bNk6xHD90mlVaUOJ3kT6.png" alt="HMS" />
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/ZVx7ahuV1mVuIeygYwirc.png" alt="MGB" />
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/TkKKjmq98Wv_p5shxJTMY.png" alt="Broad" />
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/UcM8kmTaVkAM1qf3v09K8.png" alt="YLab" />
 </div>
 
+<!-- Background ----------------------------------------------------------->
 <h2>📜 Background</h2>
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>52 state-of-the-art LLMs</strong> (by 2025/04/28).</p>
 This project is led and maintained by the team of <a href="https://ylab.top/">Prof. Jie Yang</a> and <a href="https://www.drugepi.org/team/joshua-kueiyu-lin">Prof. Kueiyu Joshua Lin</a> at Harvard Medical School and Brigham and Women's Hospital. 
 
-
-<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: auto;">
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/633c70c4ccce04161f841c30/OLN3J8_Yq8dx_LrgjYSsC.png"
-    alt="dataset"
-    style="max-width: 80%; max-height: 100%; object-fit: contain;"
-  />
+<!-- Dataset illustration ------------------------------------------------->
+<div class="section-img">
+<img src="https://cdn-uploads.huggingface.co/production/uploads/633c70c4ccce04161f841c30/OLN3J8_Yq8dx_LrgjYSsC.png" alt="dataset" />
 </div>
 
-
+<!-- Leaderboard description --------------------------------------------->
 <h2>🏆 BRIDGE Leaderboard</h2>
 <p>BRIDGE features three leaderboards, each evaluating LLM performance in clinical text tasks under a distinct inference strategy:</p>
 <ul>
@@ -45,15 +75,12 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
 </ul>
 <p>In addition, BRIDGE offers multiple <strong>model filters</strong> and <strong>task filters</strong> to enable users to explore LLM performance across <strong>different clinical contexts</strong>, empowering researchers and clinicians to make informed decisions and track model advancements over time.</p>
 
-<div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 450px;">
-  <img
-    src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xpyabfXWqacZD-ThQ5guU.jpeg"
-    alt="HMS"
-    style="max-width: 90%; max-height: 100%; object-fit: contain;"
-  />
+<!-- Leaderboard illustration -------------------------------------------->
+<div class="section-img">
+<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xpyabfXWqacZD-ThQ5guU.jpeg" alt="model" />
 </div>
 
-
+<!-- Key Features --------------------------------------------------------->
 <h2>🌍 Key Features</h2>
 <ul>
     <li><strong>Real-world Clinical Text</strong>: All tasks are sourced from real-world medical settings, such as electronic health records (EHRs), clinical case reports, or healthcare consultations</li>
@@ -71,6 +98,7 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
 </ul>
 More Details can be found in our <a href="https://arxiv.org/abs/2504.19467">BRIDGE paper</a> and <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a>.
 
+<!-- Dataset access / submission ----------------------------------------->
 <h2>🛠️ How to Evaluate Your Model on BRIDGE ?</h2>
 <h4>📂 Dataset Access</h4>
 <p>All fully open-access datasets in BRIDGE are available in <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a>. To ensure the fairness of this leaderboard, we publicly release the following data for each task:
@@ -88,33 +116,36 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 </ul>
 We will review and evaluate your submission and update the leaderboard accordingly. 
 
+<!-- Updates -------------------------------------------------------------->
 <h2>📢 Updates</h2>
 <ul>
     <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
     <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
 </ul>
 
+<!-- Contributing --------------------------------------------------------->
 <h2>🤝 Contributing</h2>
 <p>We welcome and greatly value contributions and collaborations from the community!
 If you have clinical text datasets that you would like to share for broader exploration, please contact us!</p>
 <p>We are committed to expanding BRIDGE while strictly adhering to appropriate data use agreements and ethical guidelines. Let's work together to advance the responsible application of LLMs in medicine!</p>
 
+<!-- Donation ------------------------------------------------------------->
 <h2>🚀 Donation</h2>
 <p>BRIDGE is a non-profit, researcher-led benchmark that requires substantial resources (e.g., high-performance GPUs, a dedicated team) to sustain. To support open and impactful academic research that advances clinical care, we welcome your contributions. Please contact Prof. Jie Yang at <a href="mailto:jyang66@bwh.harvard.edu">jyang66@bwh.harvard.edu</a> to discuss donation opportunities.</p>
 
+<!-- Contact -------------------------------------------------------------->
 <h2>📬 Contact Information</h2>
-<p>If you have any questions about BRIDGE or the leaderboard, feel free to reach out!</p>
+<p>If you have any questions about BRIDGE or the leaderboard, feel free to contact us!</p>
 <ul>
     <li><strong>Leaderboard Managers</strong>: Jiageng Wu (<a href="mailto:jiwu7@bwh.harvard.edu">jiwu7@bwh.harvard.edu</a>), Kevin Xie (<a href="mailto:kevinxie@mit.edu">kevinxie@mit.edu</a>), Bowen Gu (<a href="mailto:bogu@bwh.harvard.edu">bogu@bwh.harvard.edu</a>)</li>
     <li><strong>Benchmark Managers</strong>: Jiageng Wu, Bowen Gu</li>
     <li><strong>Project Lead</strong>: Jie Yang (<a href="mailto:jyang66@bwh.harvard.edu">jyang66@bwh.harvard.edu</a>)</li>
 </ul>
-</div>
 
+<!-- Citation ------------------------------------------------------------->
 <h2>📚 Citation</h2>
 <p>If you find this leaderboard useful for your research and applications, please cite the following papers:</p>
-<pre style="white-space: pre-wrap; overflow-wrap: anywhere;">
-<code>@article{BRIDGE-benchmark,
+<pre style="white-space: pre-wrap; overflow-wrap: anywhere;"><code>@article{BRIDGE-benchmark,
     title={BRIDGE: Benchmarking Large Language Models for Understanding Real-world Clinical Practice Text},
     author={Wu, Jiageng and Gu, Bowen and Zhou, Ren and Xie, Kevin and Snyder, Doug and Jiang, Yixing and Carducci, Valentina and Wyss, Richard and Desai, Rishi J and Alsentzer, Emily and Celi, Leo Anthony and Rodman, Adam and Schneeweiss, Sebastian and Chen, Jonathan H. and Romero-Brufau, Santiago and Lin, Kueiyu Joshua and Yang, Jie},
     year={2025},
@@ -132,6 +163,8 @@ If you have clinical text datasets that you would like to share for broader expl
     pages={AIra2400012},
     year={2024},
     publisher={Massachusetts Medical Society}
-}
-</code></pre>
+}</code></pre>
 <p>If you use the datasets in BRIDGE, please also cite the original paper of datasets, which can be found in our BRIDGE paper.</p>
+
+</div>
+<!-- ----------  End of Page Content  ---------- -->
