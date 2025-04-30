@@ -78,8 +78,9 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
 
 <!-- Leaderboard illustration -------------------------------------------->
 <div class="section-img">
-<img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/xpyabfXWqacZD-ThQ5guU.jpeg" alt="model" />
+<img src="https://cdn-uploads.huggingface.co/production/uploads/633c70c4ccce04161f841c30/7EvHvtnfDPnzzHdPDi0L9.png" alt="model" />
 </div>
+
 
 <!-- Key Features --------------------------------------------------------->
 <h2>🌍 Key Features</h2>
