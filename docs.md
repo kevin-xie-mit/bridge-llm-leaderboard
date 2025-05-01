@@ -116,8 +116,8 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
     <li><strong>If you want us to run inference:</strong> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a>.</li>
 </ul>
 <p>We will review and evaluate your submission and update the leaderboard accordingly.</p>
-<p><strong>🚨 Important: Due to computational resource constraint, our team may not be able to test all proposed models, and there will be a delay in showing the results after your submission.</strong></p>
 <p><strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.</p>
+<p><strong>🚨 Important: Due to computational resource constraint, our team may not be able to test all proposed models, and there will be a delay in showing the results after your submission.</strong></p>
 
 <!-- Updates -------------------------------------------------------------->
 <h2>📢 Updates</h2>
