@@ -113,10 +113,11 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <p>If you would like to see how an unevaluated model performs on BRIDGE, please follow these steps:</p>
 <ul>
     <li><strong>If you want to run inference locally:</strong> Download the <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a> dataset and perform inference locally. Save the generated output of each sample in its "pred" field for each dataset file. Then send your results to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a></li>
-    <li><strong>If you want us to run inference:</strong></li> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a>.
+    <li><strong>If you want us to run inference:</strong> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a></li>.
 </ul>
-We will review and evaluate your submission and update the leaderboard accordingly. 
-<strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.
+<p>We will review and evaluate your submission and update the leaderboard accordingly.</p>
+
+<p><strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.</p>
 
 <!-- Updates -------------------------------------------------------------->
 <h2>📢 Updates</h2>
