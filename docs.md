@@ -109,11 +109,12 @@ Five completed samples serve as few-shot examples, and all testing samples with 
 <p>Due to privacy and security considerations of clinical data, regulated-access datasets can not be directly published. However, all detailed task descriptions and their corresponding data sources are available in our <a href="https://arxiv.org/abs/2504.19467">BRIDGE paper</a>.
 Importantly, all 87 datasets have been verified to be either fully open-access or publicly accessible via reasonable request in our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a>.</p>
 
-<h4>🔥 Result Submission and Evaluation</h4>
-<p>If you would like to submit your model results to BRIDGE and demonstrate its performance, please follow these steps:</p>
+<h4>🔥 Result Submission and Model Evaluation</h4>
+<p>If you would like to see how an unevaluated model perform on BRIDGE, please follow these steps:</p>
 <ul> 
-    <li><strong>Run local inference:</strong> Download the <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a> dataset and perform inference locally. Save the generated output of each sample in its "pred" field for each dataset file.</li>
-    <li><strong>Prepare your submission:</strong> Send your results to us (see the following Contact Information). Please clearly describe your model details and experimental settings, including the inference strategy used (zero-shot, few-shot, or CoT), and note any additional relevant configurations if applicable.</li> 
+    <li><strong>Run model inference:</strong> This can be done by you locally or by us. 
+        <li><strong>If you want to do inference locally:</strong> Download the <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a> dataset and perform inference locally. Save the generated output of each sample in its "pred" field for each dataset file. Then send your results to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a></li>
+        <li><strong>If you want us to do model inference:</strong></li> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a>.
     <li><strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.</li> 
 </ul>
 We will review and evaluate your submission and update the leaderboard accordingly. 
@@ -128,7 +129,7 @@ We will review and evaluate your submission and update the leaderboard according
 <!-- Contributing --------------------------------------------------------->
 <h2>🤝 Contributing</h2>
 <p>We welcome and greatly value contributions and collaborations from the community!
-If you have clinical text datasets that you would like to share for broader exploration, please contact us!</p>
+If you have clinical text datasets that you would like to add to the BRIDEG benchmark, please fill in <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a> and let us know!</p>
 <p>We are committed to expanding BRIDGE while strictly adhering to appropriate data use agreements and ethical guidelines. Let's work together to advance the responsible application of LLMs in medicine!</p>
 
 <!-- Donation ------------------------------------------------------------->
