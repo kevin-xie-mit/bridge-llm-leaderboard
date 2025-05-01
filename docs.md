@@ -113,7 +113,7 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <p>If you would like to see how an unevaluated model performs on BRIDGE, please follow these steps:</p>
 <ul>
     <li><strong>If you want to run inference locally:</strong> Download the <a href="https://huggingface.co/datasets/YLab-Open/BRIDGE-Open">BRIDGE-Open</a> dataset and perform inference locally. Save the generated output of each sample in its "pred" field for each dataset file. Then send your results to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a></li>
-    <li><strong>If you want us to run inference:</strong> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a></li>.
+    <li><strong>If you want us to run inference:</strong> Send the link of the model to us via <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a>.</li>
 </ul>
 <p>We will review and evaluate your submission and update the leaderboard accordingly.</p>
 <p><strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.</p>
@@ -128,7 +128,7 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <!-- Contributing --------------------------------------------------------->
 <h2>🤝 Contributing</h2>
 <p>We welcome and greatly value contributions and collaborations from the community!
-If you have clinical text datasets that you would like to add to the BRIDEG benchmark, please fill in <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a> and let us know!</p>
+If you have <strong>clinical text datasets</strong> that you would like to add to the BRIDEG benchmark, please fill in <a href="https://forms.gle/gU3GjSn9SqJRvs3b9">the Google Form</a> and let us know!</p>
 <p>We are committed to expanding BRIDGE while strictly adhering to appropriate data use agreements and ethical guidelines. Let's work together to advance the responsible application of LLMs in medicine!</p>
 
 <!-- Donation ------------------------------------------------------------->
