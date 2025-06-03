@@ -4,7 +4,7 @@ This file tracks the addition of models to the BRIDGE leaderboard, with release 
 
 ---
 
-## 📅 Latest Update: **2025-05-28**
+## 📅 Latest Update: **2025-06-03**
 
 | Model Name                     | Release Date | Model Link |
 |--------------------------------|--------------|------------|
@@ -94,4 +94,4 @@ This file tracks the addition of models to the BRIDGE leaderboard, with release 
 
 ---
 
-**📌 Note**: This log reflects only the official updates to the BRIDGE leaderboard as of 2025-05-28. For submission or evaluation, visit the [official repo](https://github.com/YLab-Open/BRIDGE).
+**📌 Note**: This log reflects only the official updates to the BRIDGE leaderboard as of 2025-06-03. For submission or evaluation, visit the [official repo](https://github.com/YLab-Open/BRIDGE).
