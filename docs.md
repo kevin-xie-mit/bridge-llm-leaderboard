@@ -122,6 +122,7 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <!-- Updates -------------------------------------------------------------->
 <h2>📢 Updates</h2>
 <ul>
+    <li>🗓️ 2025/05/28: <a href="https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/blob/main/models-log.md">Added 21 models</a> (including MedGemma and the Qwen 3 series) to the BRIDGE Leaderboard!</li>
     <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
     <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
 </ul>
