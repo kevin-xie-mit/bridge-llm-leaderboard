@@ -58,7 +58,7 @@
 
 <!-- Background ----------------------------------------------------------->
 <h2>📜 Background</h2>
-<p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>52 state-of-the-art LLMs</strong> (by 2025/04/28).</p>
+<p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>73 state-of-the-art LLMs</strong> (by 2025/04/28).</p>
 This project is led and maintained by the team of <a href="https://ylab.top/">Prof. Jie Yang</a> and <a href="https://www.drugepi.org/team/joshua-kueiyu-lin">Prof. Kueiyu Joshua Lin</a> at Harvard Medical School and Brigham and Women's Hospital. 
 
 <!-- Dataset illustration ------------------------------------------------->
@@ -89,7 +89,7 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
     <li><strong>Multilingual Context</strong>: 9 languages: English, Chinese, Spanish, Japanese, German, Russian, French, Norwegian, and Portuguese</li>
     <li><strong>Diverse Task Types</strong>: 8 task types: Text classification, Semantic similarity, Normalization and coding, Named entity recognition, Natural language inference, Event extraction, Question answering, and Text summarization</li>
     <li><strong>Broad Clinical Applications</strong>: 14 Clinical specialties, 7 Clinical document types, 20 Clinical applications covering 6 clinical stages of patient care</li>
-    <li><strong>Advanced LLMs (52 models)</strong>:
+    <li><strong>Advanced LLMs (73 models)</strong>:
     <ul>
         <li><strong>Proprietary models</strong>: GPT-4o, GPT-3.5, Gemini-2.0-Flash, Gemini-1.5-Pro ...</li>
         <li><strong>Open-source models</strong>: Llama 3/4, QWEN2.5, Mistral, Gemma ...</li>
@@ -126,6 +126,18 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
     <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
     <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
 </ul>
+
+<!-- Other Notes-------------------------------------------------------------->
+<h2>🧾 Model Notes & Special Tags</h2>
+<p>This section provides important notes and clarifications related to specific models, evaluation configurations, and metadata on the leaderboard.</p>
+
+<h4>🧠 Qwen3 Thinking Mode</h4>
+<p>Some of the newly added Qwen3 models contain the suffixes <code>-Thinking</code> and <code>-Non-Thinking</code>, which refer to their internal configuration for reasoning behavior:</p>
+<ul>
+  <li><strong><code>-Thinking</code></strong>: Model was evaluated with <code>enable_thinking = True</code></li>
+  <li><strong><code>-Non-Thinking</code></strong>: Model was evaluated with <code>enable_thinking = False</code></li>
+</ul>
+<p>These configurations toggle Qwen3’s internal “thinking” mode and may influence its multi-step reasoning performance. More details can be found on the <a href="https://huggingface.co/Qwen">Qwen3 Hugging Face model page</a>.</p>
 
 <!-- Contributing --------------------------------------------------------->
 <h2>🤝 Contributing</h2>
