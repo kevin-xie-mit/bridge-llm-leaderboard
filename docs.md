@@ -92,8 +92,8 @@ This project is led and maintained by the team of <a href="https://ylab.top/">Pr
     <li><strong>Advanced LLMs (73 models)</strong>:
     <ul>
         <li><strong>Proprietary models</strong>: GPT-4o, GPT-3.5, Gemini-2.0-Flash, Gemini-1.5-Pro ...</li>
-        <li><strong>Open-source models</strong>: Llama 3/4, QWEN2.5, Mistral, Gemma ...</li>
-        <li><strong>Medical models</strong>: Baichuan-M1-14B, meditron, MeLLaMA... </li>
+        <li><strong>Open-source models</strong>: Qwen 3/2.5, Llama 3/4, Mistral, Gemma ...</li>
+        <li><strong>Medical models</strong>: medgemma, Baichuan-M1-14B, meditron, MeLLaMA... </li>
         <li><strong>Reasoning models</strong>: Deepseek-R1(671B), QWQ-32B, Deepseek-R1-Distll-Qwen/Llama ...</li>
     </ul>
     </li>
@@ -132,7 +132,7 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <p>This section provides important notes and clarifications related to specific models, evaluation configurations, and metadata on the leaderboard.</p>
 
 <h4>🧠 Qwen3 Thinking Mode</h4>
-<p>Some of the newly added Qwen3 models contain the suffixes <code>-Thinking</code> and <code>-Non-Thinking</code>, which refer to their internal configuration for reasoning behavior:</p>
+<p>The evaluations for each Qwen3 model contains either the suffixes <code>-Thinking</code> and <code>-Non-Thinking</code>, which refer to their internal configuration for reasoning behavior:</p>
 <ul>
   <li><strong><code>-Thinking</code></strong>: Model was evaluated with <code>enable_thinking = True</code></li>
   <li><strong><code>-Non-Thinking</code></strong>: Model was evaluated with <code>enable_thinking = False</code></li>
