@@ -1,1 +1,0 @@
-Folder that stores all leaderboard data.
