@@ -56,6 +56,14 @@
 <img src="https://cdn-uploads.huggingface.co/production/uploads/67a040fb6934f9aa1c866f99/UcM8kmTaVkAM1qf3v09K8.png" alt="YLab" />
 </div>
 
+<!-- Updates -------------------------------------------------------------->
+<h2>📢 Updates</h2>
+<ul>
+    <li>🗓️ 2025/06/03: Added 21 models (including MedGemma and the Qwen 3 series) to the BRIDGE Leaderboard! <a href="https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/blob/main/models-log.md">View the full list of added models</a></li>
+    <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
+    <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
+</ul>
+
 <!-- Background ----------------------------------------------------------->
 <h2>📜 Background</h2>
 <p>Recent advances in <strong>Large Language Models (LLMs)</strong> have demonstrated transformative potential in <strong>healthcare</strong>,  yet concerns remain around their reliability and clinical validity across diverse clinical tasks, specialties, and languages. To support timely and trustworthy evaluation, building upon our <a href="https://ai.nejm.org/doi/full/10.1056/AIra2400012">systematic review</a> of global clinical text resources, we introduce <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a>, <strong>a multilingual benchmark that comprises 87 real-world clinical text tasks spanning nine languages and more than one million samples</strong>. Furthermore, we construct this leaderboard of LLM in clinical text understanding by systematically evaluating <strong>73 state-of-the-art LLMs</strong> (by 2025/06/03).</p>
@@ -119,13 +127,6 @@ Importantly, all 87 datasets have been verified to be either fully open-access o
 <p><strong>Code Reference:</strong> About LLM inference, result extraction, and evaluation scheme, please refer to our <a href="https://github.com/YLab-Open/BRIDGE">BRIDGE GitHub repo</a>.</p>
 <p><strong>🚨 Important: Due to computational resource constraint, our team may not be able to test all proposed models, and there will be a delay in showing the results after your submission.</strong></p>
 
-<!-- Updates -------------------------------------------------------------->
-<h2>📢 Updates</h2>
-<ul>
-    <li>🗓️ 2025/06/03: Added 21 models (including MedGemma and the Qwen 3 series) to the BRIDGE Leaderboard! <a href="https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/blob/main/models-log.md">View the full list of added models</a></li>
-    <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
-    <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
-</ul>
 
 <!-- Other Notes-------------------------------------------------------------->
 <h2>🧾 Model Notes & Special Tags</h2>
