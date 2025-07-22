@@ -1,0 +1,9 @@
+# Scripts
+scripts/
+test.py
+
+# Data
+Clinical Benchmark and LLM.xlsx
+
+# Old Leaderbaords
+leaderboard-versions/
