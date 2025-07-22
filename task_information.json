@@ -40,7 +40,7 @@
         "Clinical Stage": "Diagnosis and Prognosis"
     },
     "Brateca-Hospitalization": {
-        "Language": "Portuguese\n(Brazilian)",
+        "Language": "Portuguese",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
         "Data Access": "Regulated",
@@ -48,7 +48,7 @@
         "Clinical Stage": "Diagnosis and Prognosis"
     },
     "Brateca-Mortality": {
-        "Language": "Portuguese\n(Brazilian)",
+        "Language": "Portuguese",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
         "Data Access": "Regulated",
@@ -116,7 +116,7 @@
         "Task Type": "Event Extraction",
         "Clinical Context": "General",
         "Data Access": "Open Access",
-        "Applications": "Temporal & Causality relation",
+        "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
     "C-EMRS": {
@@ -356,7 +356,7 @@
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Pediatrics, Psychology",
         "Data Access": "Open Access",
-        "Applications": "Temporal & Causality relation",
+        "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
     "n2c2 2018-ADE&medication": {
@@ -372,7 +372,7 @@
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Cardiology",
         "Data Access": "Open Access",
-        "Applications": "Temporal & Causality relation",
+        "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
     "NorSynthClinical-RE": {
@@ -380,7 +380,7 @@
         "Task Type": "Event Extraction",
         "Clinical Context": "Cardiology",
         "Data Access": "Open Access",
-        "Applications": "Temporal & Causality relation",
+        "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
     "NUBES": {
@@ -396,7 +396,7 @@
         "Task Type": "Summarization",
         "Clinical Context": "General",
         "Data Access": "Open Access",
-        "Applications": "Consultation summarization",
+        "Applications": "Encounter summarization",
         "Clinical Stage": "Initial Assessment"
     },
     "MEDIQA 2023-sum-A": {
@@ -412,7 +412,7 @@
         "Task Type": "Summarization",
         "Clinical Context": "General",
         "Data Access": "Open Access",
-        "Applications": "Consultation summarization",
+        "Applications": "Encounter summarization",
         "Clinical Stage": "Initial Assessment"
     },
     "RuMedDaNet": {
@@ -468,7 +468,7 @@
         "Task Type": "Summarization",
         "Clinical Context": "Pediatrics",
         "Data Access": "Open Access",
-        "Applications": "Consultation summarization",
+        "Applications": "Encounter summarization",
         "Clinical Stage": "Initial Assessment"
     },
     "IMCS-V2-DAC": {
@@ -539,7 +539,7 @@
         "Language": "Russian",
         "Task Type": "Natural Language Inference",
         "Clinical Context": "Critical Care",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Semantic relation",
         "Clinical Stage": "Research"
     },
@@ -615,7 +615,7 @@
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
-    "IFMIR - NER&factuality": {
+    "IFMIR-NER&factuality": {
         "Language": "Japanese",
         "Task Type": "Event Extraction",
         "Clinical Context": "Pharmacology",
@@ -693,6 +693,22 @@
         "Clinical Context": "Cardiology, Gastroenterology, Neurology, Pulmonology, Endocrinology",
         "Data Access": "Regulated",
         "Applications": "Diagnosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-III Outcome.Diagnosis": {
+        "Language": "English",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
+        "Clinical Stage": "Diagnosis and Prognosis"
+    },
+    "MIMIC-III Outcome.Procedure": {
+        "Language": "English",
+        "Task Type": "Normalization and Coding",
+        "Clinical Context": "Critical Care",
+        "Data Access": "Regulated",
+        "Applications": "Prognosis",
         "Clinical Stage": "Diagnosis and Prognosis"
     }
 }

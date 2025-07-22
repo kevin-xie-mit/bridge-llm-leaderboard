@@ -22,9 +22,9 @@ class LeaderboardDataLoader:
     def _load_leaderboard_data(self) -> Dict[str, Dict]:
         """Load all leaderboard JSON data"""
         leaderboard_files = {
-            'zero_shot': 'leaderboards/Zero-Shot_leaderboard_data.json',
-            'few_shot': 'leaderboards/Few-Shot_leaderboard_data.json',
-            'cot': 'leaderboards/CoT_leaderboard_data.json'
+            'zero_shot': 'leaderboards/Zero-Shot_leaderboard.json',
+            'few_shot': 'leaderboards/Few-Shot_leaderboard.json',
+            'cot': 'leaderboards/CoT_leaderboard.json'
         }
         
         data = {}
@@ -38,13 +38,12 @@ class LeaderboardDataLoader:
         """Create pandas DataFrames from JSON data"""
         dataframes = {}
         for key in ['zero_shot', 'few_shot', 'cot']:
-            json_file = f"leaderboards/{key.replace('_', '-').title()}_leaderboard_data.json"
             if key == 'few_shot':
-                json_file = "leaderboards/Few-Shot_leaderboard_data.json"
+                json_file = "leaderboards/Few-Shot_leaderboard.json"
             elif key == 'cot':
-                json_file = "leaderboards/CoT_leaderboard_data.json"
+                json_file = "leaderboards/CoT_leaderboard.json"
             else:
-                json_file = "leaderboards/Zero-Shot_leaderboard_data.json"
+                json_file = "leaderboards/Zero-Shot_leaderboard.json"
                 
             dataframes[key] = pd.read_json(self.abs_path / json_file, precise_float=True)
         
