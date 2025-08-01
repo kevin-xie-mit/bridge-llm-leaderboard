@@ -4,7 +4,23 @@ This file tracks the addition of models to the BRIDGE leaderboard, with release 
 
 ---
 
-## 📅 Latest Update: **2025-06-03**
+## 📅 Latest Update: **2025-07-22**
+
+| Model Name                     | Release Date | Model Link |
+|--------------------------------|--------------|------------|
+| Magistral-Small-2506           | 2025-06-10   | https://huggingface.co/mistralai/Magistral-Small-2506 |
+| OpenThinker3-7B                | 2025-05-27   | https://huggingface.co/open-thoughts/OpenThinker3-7B |
+| QwenLong-L1-32B                | 2025-05-23   | https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1-32B |
+| HuatuoGPT-o1-7B                | 2025-01-06   | https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-7B |
+| HuatuoGPT-o1-8B                | 2024-12-27   | https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B |
+| HuatuoGPT-o1-70B               | 2024-12-27   | https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-70B |
+| HuatuoGPT-o1-72B               | 2025-01-29   | https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B |
+| MedReason-8B                   | 2025-04-01   | https://huggingface.co/UCSC-VLAA/MedReason-8B |
+| gemini-2.5-flash               | 2025-05-17   | https://deepmind.google/technologies/gemini/ |
+
+---
+
+## 📅 Previous Update: **2025-06-03**
 
 | Model Name                     | Release Date | Model Link |
 |--------------------------------|--------------|------------|
@@ -32,7 +48,7 @@ This file tracks the addition of models to the BRIDGE leaderboard, with release 
 
 ---
 
-## 📅 Previous Update: **2025-04-28**
+## 📅 Update 1: **2025-04-28**
 
 | Model Name                     | Release Date | Model Link |
 |--------------------------------|--------------|------------|
@@ -94,4 +110,4 @@ This file tracks the addition of models to the BRIDGE leaderboard, with release 
 
 ---
 
-**📌 Note**: This log reflects only the official updates to the BRIDGE leaderboard as of 2025-06-03. For submission or evaluation, visit the [official repo](https://github.com/YLab-Open/BRIDGE).
+**📌 Note**: This log reflects only the official updates to the BRIDGE leaderboard as of 2025-07-22. For submission or evaluation, visit the [official repo](https://github.com/YLab-Open/BRIDGE).

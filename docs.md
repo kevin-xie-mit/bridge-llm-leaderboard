@@ -59,7 +59,8 @@
 <!-- Updates -------------------------------------------------------------->
 <h2>📢 Updates</h2>
 <ul>
-    <li>🗓️ 2025/06/03: Added 21 models (including MedGemma and the Qwen 3 series) to the BRIDGE Leaderboard! <a href="https://huggingface.co/spaces/YLab-Open/BRIDGE-OPEN-Leaderboard/blob/main/models-log.md">View the full list of added models</a></li>
+    <li>🗓️ 2025/07/22: Updated leaderboard with 9 models! <a href="https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/blob/main/models-log.md">View the full list of added models</a></li>
+    <li>🗓️ 2025/06/03: Added 21 models (including MedGemma and the Qwen 3 series) to the BRIDGE Leaderboard!</li>
     <li>🗓️ 2025/04/28: BRIDGE Leaderboard V1.0.0 is now live!</li>
     <li>🗓️ 2025/04/28: Our paper <a href="https://arxiv.org/abs/2504.19467">BRIDGE</a> is now available on arXiv!</li>
 </ul>
