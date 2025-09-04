@@ -132,6 +132,7 @@ class FilterManager:
         # If no filters are applied, reset to original performance
         if self.is_empty(self.filter_states[leaderboard_type]):
             df["Average Performance"] = self.data_loader.get_original_performance(leaderboard_type)
+            # Reset T column to original values when no filters are applied
             return df
 
         # Get filtered columns
@@ -145,6 +146,16 @@ class FilterManager:
         
         # Map the values to the 'Average Performance' column based on index
         df["Average Performance"] = df.index.map(updated_performance_int)
+        
+        # Update T column to reflect new ranking based on filtered average performance
+        # Sort by Average Performance in descending order and assign ranks 1, 2, 3, etc.
+        df_sorted = df.sort_values(by="Average Performance", ascending=False, na_last=True)
+        rank_mapping = {}
+        for rank, idx in enumerate(df_sorted.index):
+            rank_mapping[idx] = rank + 1
+        
+        # Apply the new ranking to the T column
+        df["T"] = df.index.map(rank_mapping)
         
         # Return dataframe with filtered columns
         base_columns = ['T', 'Model', 'Model: Domain', 'Model: Accessibility', 'Model: Size Range', 'Size (B)', 'Average Performance']
