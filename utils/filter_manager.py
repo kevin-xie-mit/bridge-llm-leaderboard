@@ -149,7 +149,7 @@ class FilterManager:
         
         # Update T column to reflect new ranking based on filtered average performance
         # Sort by Average Performance in descending order and assign ranks 1, 2, 3, etc.
-        df_sorted = df.sort_values(by="Average Performance", ascending=False, na_last=True)
+        df_sorted = df.sort_values(by="Average Performance", ascending=False, na_position='last')
         rank_mapping = {}
         for rank, idx in enumerate(df_sorted.index):
             rank_mapping[idx] = rank + 1
