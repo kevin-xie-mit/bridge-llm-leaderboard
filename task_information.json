@@ -3,7 +3,7 @@
         "Language": "English",
         "Task Type": "Text Classification",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -11,7 +11,7 @@
         "Language": "English",
         "Task Type": "Event Extraction",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -19,7 +19,7 @@
         "Language": "English",
         "Task Type": "Event Extraction",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Medication information",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -27,7 +27,7 @@
         "Language": "Spanish",
         "Task Type": "Event Extraction",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Concept standarization",
         "Clinical Stage": "Research"
     },
@@ -35,7 +35,7 @@
         "Language": "English",
         "Task Type": "Text Classification",
         "Clinical Context": "Neurology, Radiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Diagnosis",
         "Clinical Stage": "Diagnosis and Prognosis"
     },
@@ -59,7 +59,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "Oncology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -67,7 +67,7 @@
         "Language": "Spanish",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Oncology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -75,7 +75,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "Oncology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -83,7 +83,7 @@
         "Language": "Spanish",
         "Task Type": "Text Classification",
         "Clinical Context": "Radiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -91,7 +91,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "Radiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -99,7 +99,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "Radiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -107,7 +107,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "Radiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -115,7 +115,7 @@
         "Language": "Chinese",
         "Task Type": "Event Extraction",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
@@ -123,7 +123,7 @@
         "Language": "Chinese",
         "Task Type": "Text Classification",
         "Clinical Context": "Radiology, Endocrinology, Pulmonology, Cardiology, Gastroenterology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Diagnosis",
         "Clinical Stage": "Diagnosis and Prognosis"
     },
@@ -131,7 +131,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -139,7 +139,7 @@
         "Language": "Spanish",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -147,7 +147,7 @@
         "Language": "English",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Negation identification",
         "Clinical Stage": "Research"
     },
@@ -155,7 +155,7 @@
         "Language": "Spanish",
         "Task Type": "Text Classification",
         "Clinical Context": "Pulmonology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Diagnosis",
         "Clinical Stage": "Diagnosis and Prognosis"
     },
@@ -163,7 +163,7 @@
         "Language": "Portuguese",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Neurology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Procudure information",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -235,7 +235,7 @@
         "Language": "German",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Nephrology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Procudure information",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -307,7 +307,7 @@
         "Language": "Japanese",
         "Task Type": "Semantic Similarity",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Semantic relation",
         "Clinical Stage": "Research"
     },
@@ -315,7 +315,7 @@
         "Language": "Spanish",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "De-identification",
         "Clinical Stage": "Research"
     },
@@ -347,7 +347,7 @@
         "Language": "English",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Data organization",
         "Clinical Stage": "Research"
     },
@@ -355,7 +355,7 @@
         "Language": "English",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Pediatrics, Psychology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
@@ -371,7 +371,7 @@
         "Language": "Norwegian",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Cardiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
@@ -379,7 +379,7 @@
         "Language": "Norwegian",
         "Task Type": "Event Extraction",
         "Clinical Context": "Cardiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Temporal/Causality determination",
         "Clinical Stage": "Initial Assessment"
     },
@@ -387,7 +387,7 @@
         "Language": "Spanish",
         "Task Type": "Event Extraction",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Negation identification",
         "Clinical Stage": "Research"
     },
@@ -395,7 +395,7 @@
         "Language": "English",
         "Task Type": "Summarization",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Encounter summarization",
         "Clinical Stage": "Initial Assessment"
     },
@@ -403,7 +403,7 @@
         "Language": "English",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Data organization",
         "Clinical Stage": "Research"
     },
@@ -411,7 +411,7 @@
         "Language": "English",
         "Task Type": "Summarization",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Encounter summarization",
         "Clinical Stage": "Initial Assessment"
     },
@@ -419,7 +419,7 @@
         "Language": "Russian",
         "Task Type": "Natural Language Inference",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Screen & Consultation",
         "Clinical Stage": "Triage and Referral"
     },
@@ -427,7 +427,7 @@
         "Language": "Chinese",
         "Task Type": "Normalization and Coding",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Billing & Coding",
         "Clinical Stage": "Discharge and Administration"
     },
@@ -435,7 +435,7 @@
         "Language": "Chinese",
         "Task Type": "Text Classification",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Clinical trial matching",
         "Clinical Stage": "Research"
     },
@@ -555,7 +555,7 @@
         "Language": "Norwegian",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Cardiology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "De-identification",
         "Clinical Stage": "Research"
     },
@@ -563,7 +563,7 @@
         "Language": "Russian",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Pulmonology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Procudure information",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -571,7 +571,7 @@
         "Language": "French",
         "Task Type": "Semantic Similarity",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Semantic relation",
         "Clinical Stage": "Research"
     },
@@ -595,7 +595,7 @@
         "Language": "German",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "De-identification",
         "Clinical Stage": "Research"
     },
@@ -603,7 +603,7 @@
         "Language": "Japanese",
         "Task Type": "Text Classification",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -611,7 +611,7 @@
         "Language": "Japanese",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -619,7 +619,7 @@
         "Language": "Japanese",
         "Task Type": "Event Extraction",
         "Clinical Context": "Pharmacology",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "ADE & Incidents",
         "Clinical Stage": "Treatment and Intervention"
     },
@@ -627,7 +627,7 @@
         "Language": "Japanese",
         "Task Type": "Named Entity Recognition",
         "Clinical Context": "General",
-        "Data Access": "Open Access",
+        "Data Access": "Regulated",
         "Applications": "Procudure information",
         "Clinical Stage": "Treatment and Intervention"
     },
